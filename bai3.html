@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 2</title>
+    <title>Bài 3</title>
 </head>
 <body>
     <script>
-        let num=+prompt('Nhập số bất kỳ');
-        let i=1;
+        let num=0;
         let sum=0;
-        for(i=1;i<=num;i++)
-        {
-          sum = sum + i;
+        while(num!=-1){
+          sum+=num;
+          num=+prompt('Nhập vào 1 số:');
+          
         }
-        document.write('Tổng chuỗi = '+sum);
+        document.write('Tổng các số vừa nhập = '+sum);
     </script>
 </body>
 </html>
